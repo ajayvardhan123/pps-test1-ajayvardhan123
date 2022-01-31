@@ -1,1 +1,25 @@
  
+Starting program: /home/a.out 
+
+Breakpoint 1, main () at main.c:43
+43      {
+(gdb) n
+45       input_two_string(a, b);
+(gdb) n
+enter the strings
+praveen
+PRAVEEN
+46       int result = strcmp(a, b);
+(gdb) n
+47       output(a, b, result);
+(gdb) n
+48       return 0;
+(gdb) n
+49      }
+(gdb) c
+Continuing.
+praveen is greater than PRAVEEN[Inferior 1 (process 351) exited normally]
+(gdb) Quit
+
+
+(gdb)
