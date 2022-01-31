@@ -1,1 +1,18 @@
- 
+Reading symbols from a.out...
+(gdb) b main
+Breakpoint 1 at 0x1149: file main.c, line 11.
+(gdb) r
+Starting program: /home/a.out 
+
+Breakpoint 1, main () at main.c:11
+11      {
+(gdb) n
+12        printf("praveen\n");
+(gdb) n
+praveen
+13        return 0;
+(gdb) n
+14      }
+(gdb) c
+Continuing.
+[Inferior 1 (process 2447) exited normally] 

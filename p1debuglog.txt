@@ -1,0 +1,19 @@
+breakpoint 1, main () at p1final.c:3
+3   {
+(gdb) n
+5     printf("enter the value of a,b\n");
+(gdb) n
+enter the value of a,b
+6     scanf("%d%d" ,&a,&b);
+(gdb) n
+2 3
+7     c=a+b;
+(gdb) n
+8     printf("the sum of two numbers=%d\n",c);
+(gdb) n
+the sum of two numbers=5
+9     return 0;
+(gdb) c
+Continuing.
+[Inferior 1 (process 127) exited normally]
+(gdb)
